@@ -1,0 +1,238 @@
+
+/* CSS Document */body{margin:0;padding:0;border:0;font-size:100%;font-family:Trebuchet MS,Arial,Verdana;}
+	
+.header{
+	width:988px;
+ 	margin:0 auto; text-align:center;
+	padding:0; border:1px solid #0099CC; background-color:#99CC66; clear:both; padding:0;
+	}
+#home{ background:url(../images/home_top_red.png) no-repeat right bottom;
+}
+#services{ background:url(../images/service_top_new.jpg) no-repeat right bottom;}
+#whyshri{ background:url(../images/whyshri_top_new.jpg) no-repeat right bottom;}
+#infra{ background:url(../images/infra_top_new.jpg) no-repeat right bottom;}
+#testi{ background:url(../images/testi_top.jpg) no-repeat right bottom;}
+#enquiry{ background:url(../images/enquiry_top_new.jpg) no-repeat right bottom;}
+#careers{ background:url(../images/careers_top_new.jpg) no-repeat right bottom;}
+
+
+#logo{
+	padding:0 60px 0 0;
+	margin:0px 0 10px 0;
+	z-index:2;
+	float:right;
+	 width:273px; text-align:right;
+ 	}
+
+#menu{
+	padding:70px 0px 0px 85px;
+	font-size:11px;
+	margin:40px 0 0px 0;
+    color:white;
+	text-align:left;
+	float:left; vertical-align:bottom;
+	}
+
+
+.serviceBg
+{
+background-image:url('../images/services_montage.jpg');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:right; 
+}
+
+.underlinemenu{
+font-weight: bold;
+width: 100%; 
+}
+
+.underlinemenu ul{
+padding: 65px 0 7px 0; /*6px should equal top padding of "ul li a" below, 7px should equal bottom padding + bottom border of "ul li a" below*/
+margin: 10px 0 0 0;
+text-align: center; //set value to "left", "center", or "right"*
+}
+
+.underlinemenu ul li{
+display: inline;
+}
+
+.underlinemenu li a.current{
+color:#C32428;
+}
+
+.underlinemenu ul li a{
+color: #000000;
+padding: 0px 23px 6px 9px; /*top padding is 6px, bottom padding is 4px*/
+margin:0; /*spacing between each menu link*/
+text-decoration: none; 
+
+}
+
+.underlinemenu ul li a:hover, .underlinemenu ul li a.selected{
+	color:#C32428;
+}
+
+ /*Home page menu */
+
+.underlinemenuHome{
+font-weight: bold;
+width: 100%; 
+}
+
+.underlinemenuHome ul{
+padding: 25px 0 7px 0; /*6px should equal top padding of "ul li a" below, 7px should equal bottom padding + bottom border of "ul li a" below*/
+margin: 10px 0 0 0;
+text-align: center; //set value to "left", "center", or "right"*
+}
+
+.underlinemenuHome ul li{
+display: inline;
+}
+
+.underlinemenuHome li a.current{
+color:#000000;
+}
+
+.underlinemenuHome ul li a{
+color: #ffffff;
+padding: 0px 23px 6px 9px; /*top padding is 6px, bottom padding is 4px*/
+margin:0; /*spacing between each menu link*/
+text-decoration: none; 
+
+}
+
+.underlinemenuHome ul li a:hover, .underlinemenu ul li a.selected{
+	color:#000000;
+}
+
+
+
+
+
+.conte{
+	font-size:12px;
+	line-height:22px;
+	font-weight:semi-expanded;
+ 	color:#5C5C5C;
+	}	
+.footer{
+	font-size:11px;
+	line-height:22px;
+	font-weight:normal;
+	color:#5C5C5C;
+	}
+
+.conte span{
+	font-size:12px;
+	line-height:22px;
+	font-weight:bold;
+	margin:0;
+	padding:0px 0 0 0;
+	color:#5c5c5c;
+	}	
+
+.conte li{
+	font-size:12px;
+	color:#5C5C5C;
+	line-height:20px;
+	font-weight:normal;
+	list-style-image:url('../images/red_disc.png');
+	
+	}
+.conte li a,li a link,li a active,li a visited{
+color:#b2b2b2; text-decoration:none;
+}
+
+.conte li a:hover{
+color:#666; text-decoration:underline;
+}		
+.conte h1{
+	font-size:26px;
+	color:#B2B2B2;
+	line-height:40px;
+	font-weight:bold;
+	list-style:none;
+	}
+.conte h1 a, h1 a link,h1 a active,h1 a visited{
+	font-size:26px;
+	color:#B3B3B3;
+	line-height:30px;
+	font-weight:200;
+	list-style:none;
+	}	
+	
+.conte h2{
+	font-size:15px; 
+	color:#FF0000;
+	line-height:3px;
+	font-weight:bold;
+	list-style:none; 
+		}
+.conte h3{
+	font-size:55px; 
+	color:#B2B2B2;
+	line-height:1px;
+	font-weight:bold;
+	list-style:none; 
+		}	
+.conte h4{
+	font-size:43px; 
+	color:#B2B2B2;
+	line-height:1px;
+	font-weight:bold;
+	list-style:none; 
+		}	
+.conte h5{
+	font-size:30px; 
+	color:#B2B2B2;
+	line-height:0px;
+	font-weight:normal;
+	list-style:none; 
+		}
+.conte h6{
+	font-size:28px; 
+	color:#B2B2B2;
+	line-height:0px;
+	font-weight:normal;
+	list-style:none;
+		}		
+.careers li{
+	font-size:14px;
+	color:#5C5C5C;
+	line-height:25px;
+	font-weight:normal;
+	list-style:decimal; left:0;
+	margin:0; padding:0;
+	}		
+	
+.borderStyle
+{
+	border-bottom:dashed 1px black;
+}
+
+
+.formControl
+{
+	border:1px solid #999;
+}
+
+.formControlBtn
+{
+	border:1px solid #999;
+}
+.formControlBtn:hover
+{
+	border:1px solid #999;
+	background-color:#666666;
+	color:#FFFFFF;
+}
+.thanksText
+{
+	padding-top:20px;
+	font-size:24px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#666666;
+	text-align:center;
+}
+	
